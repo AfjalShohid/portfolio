@@ -83,7 +83,7 @@ function Home() {
 
       </div>
       <div className="mt-5 md:mt-0 text-align: -webkit-center;">
-        <img ref={myimageref} className="w-4/5 md:ml-auto" src={img} alt="Chinmay Pradhan" />
+        <img ref={myimageref} className="w-4/5 md:ml-auto" src={img} alt="Afjal Shohid" />
       </div>
     </main>
     
