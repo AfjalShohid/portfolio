@@ -34,11 +34,10 @@ function About() {
           </Event>
           <Event interval={"Sep 2021 – Apr 2022, Sep 2022 – Oct 2022"} title={"Cashier"} subtitle={"Petro Canada, Peterborough, ON, CA"}>
             🔹Processed customer transactions accurately and efficiently, handling cash, debit, and credit card payments.<br />
+            🔹Maintained a clean and organized work environment, including the cashier area and merchandise displays.<br />
             🔹Analyzed and managed the journeys of entire user-flow for multiple clients.<br />
-            🔹Analyzed and managed the journeys of entire user-flow for multiple clients.<br />
-            🔹Analyzed and managed the journeys of entire user-flow for multiple clients.<br />
-            🔹Analyzed and managed the journeys of entire user-flow for multiple clients.<br />
-            🔹Technology used at workplace is Adobe Experience Manager (AEM) for development and Adobe Analytics for reports and visualization of data.
+            🔹Monitored fuel pumps and assisted customers with refueling when necessary, adhering to safety protocols.<br />
+            🔹Adhered to company policies and procedures, including safety and security protocols, to maintain a safe and secure work environment.
           </Event>
         </Timeline><br />
 
@@ -47,9 +46,7 @@ function About() {
           Education
         </h1><br />
         <Timeline>
-          <Event interval={"2023 – 2024"} title={"Master of Science in Big Data Analytics"} subtitle={"Trent University, ON, CA"}> </Event>
-          <Event interval={"2020 – 2022"} title={"Master of Science in Computer Science"} subtitle={"Somaiya Vidyavihar University, IN"}> </Event>
-          <Event interval={"2017 – 2020"} title={"Bachelor of Science in Computer Science"} subtitle={"University of Mumbai, IN"}></Event>
+          <Event interval={"2021 – 2024"} title={"BSc in Computer Science"} subtitle={"Trent University, Peterborough, ON, CA"}> </Event>
         </Timeline>
       </React.Fragment>
     </main>
