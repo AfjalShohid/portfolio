@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": false,
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "gsap": "^3.10.4",
     "i": "^0.3.7",
     "react": "^18.2.0",

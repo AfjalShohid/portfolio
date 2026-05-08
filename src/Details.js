@@ -52,9 +52,9 @@ export const personalDetails = {
   options={{loop:true, autoStart: true}}
   onInit={(typewriter)=> {
   typewriter
-  .typeString("Release Readiness Specialist at Wealthsimple")  
+  .typeString("Release Readiness Specialist @ Wealthsimple")  
   .pauseFor(1500)
-  .deleteChars(40)
+  .deleteChars(45)
   .typeString("Computer Science Graduate")
   .pauseFor(1500)
   .deleteChars(26)
