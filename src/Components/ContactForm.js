@@ -152,18 +152,15 @@ const ContactForm = ({ email }) => {
           </div>
         )}
 
-        {/* Success Message */}
-        {status === "success" && (
-          <div className="p-4 rounded-lg bg-green-500 bg-opacity-20 border-2 border-green-500 text-green-200">
-            ✓ Message sent successfully! I'll get back to you soon.
-          </div>
-        )}
-
         {/* Submit Button */}
         <button
           type="submit"
-          disabled={status === "loading"}
-          className="w-full px-6 py-3 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold hover:from-blue-700 hover:to-purple-700 transition duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+          disabled={status === "loading" || status === "success"}
+          className={`w-full px-6 py-3 rounded-lg font-semibold transition duration-300 ${
+            status === "success"
+              ? "bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white"
+              : "bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white"
+          } ${status === "loading" ? "opacity-50 cursor-not-allowed" : ""}`}
         >
           {status === "loading" ? (
             <span className="flex items-center justify-center">
@@ -188,6 +185,18 @@ const ContactForm = ({ email }) => {
                 ></path>
               </svg>
               Sending...
+            </span>
+          ) : status === "success" ? (
+            <span className="flex items-center justify-center">
+              <svg
+                className="h-5 w-5 mr-3"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
+              </svg>
+              Message Sent!
             </span>
           ) : (
             "Send Message"
