@@ -18,26 +18,32 @@ function About() {
           Work Experience
         </h1><br />
         <Timeline>
-          <Event interval={"October 2022 – Present"} title={"Front Desk Associate"} subtitle={"Hampton Inn by Hilton, ON, CA"}>
+          <Event interval={"May 2025 – Present"} title={"Release Readiness Specialist - Security & Risk"} subtitle={"Wealthsimple, Toronto, ON, CA"}>
+            🔹Work with different teams to support and execute product releases, ensuring alignment with compliance and fraud prevention standards.<br />
+            🔹Collaborate cross-functionally with Product Managers and R&D teams to gain insights on release scope, client impact, and risk exposure.<br />
+            🔹Review and influence product designs in partnership with Designers, providing feedback from a client-first perspective.<br />
+            🔹Analyze security and risk across product releases, proactively identifying vulnerabilities and fraud risks.<br />
+            🔹Leverage advanced tooling and AI platforms such as ERNIE, LLM Gateways, WHALE, Zendesk, and SQL to analyze client feedback.<br />
+            🔹Report findings and actionable feedback directly to R&D teams to enhance client experience and security posture.
+          </Event>
+          <Event interval={"August 2024 – May 2025"} title={"Contract Associate - Account Operations"} subtitle={"Wealthsimple, Toronto, ON, CA"}>
+            🔹Assessed business methods within the team and identified inefficiencies to optimize operations.<br />
+            🔹Conducted document verification and fraud detection for clients, maintaining quality assurance standards.<br />
+            🔹Proposed and implemented customized solutions and automation to optimize performance and efficiency.<br />
+            🔹Analyzed systems and collaborated with cross-functional teams to identify and resolve operational bugs.<br />
+            🔹Delegated work to team members and ensured deadlines were met efficiently.
+          </Event>
+          <Event interval={"October 2022 – December 2024"} title={"Front Desk Associate"} subtitle={"Hampton Inn by Hilton, Peterborough, ON, CA"}>
             🔹Welcomed guests with a warm and professional demeanor, creating a positive first impression.<br />
             🔹Managed check-in and check-out processes efficiently, ensuring a seamless experience for guests.<br />
             🔹Handled guest inquiries and concerns promptly and effectively, enhancing overall guest satisfaction.<br />
-            🔹Assisted in maintaining cleanliness and organization of the front desk area, contributing to a pleasant atmosphere.<br />
             🔹Collaborated with other hotel departments to coordinate guest services and resolve issues efficiently.<br />
-            🔹Demonstrated excellent communication and interpersonal skills, building rapport with guests and colleagues.<br />
-            🔹Exceed customer service expectations, achieving a 20% increase in efficiency.
+            🔹Successfully managed multiple tasks simultaneously, exceeding customer service expectations with a 20% increase in efficiency.
           </Event>
-          <Event interval={"September 2023 – April 2024"} title={"Teaching Assistant, Student Marker, and Student Lab Demonstrator"} subtitle={"Trent University, Peterborough, ON, CA"}>
-            🔹Provide hands-on instructional support in Software Design and Modelling, and emphasizing problem-solving.<br />
-            🔹Collaborate closely with a supervisor to align activities with the overall course objectives.<br />
-            🔹Facilitate practical application, leading to a 25% improvement in problem-solving.
-          </Event>
-          <Event interval={"Sep 2021 – Apr 2022, Sep 2022 – Oct 2022"} title={"Cashier"} subtitle={"Petro Canada, Peterborough, ON, CA"}>
-            🔹Processed customer transactions accurately and efficiently, handling cash, debit, and credit card payments.<br />
-            🔹Maintained a clean and organized work environment, including the cashier area and merchandise displays.<br />
-            🔹Analyzed and managed the journeys of entire user-flow for multiple clients.<br />
-            🔹Monitored fuel pumps and assisted customers with refueling when necessary, adhering to safety protocols.<br />
-            🔹Adhered to company policies and procedures, including safety and security protocols, to maintain a safe and secure work environment.
+          <Event interval={"September 2023 – April 2024"} title={"Teaching Assistant, Student Marker, & Lab Demonstrator"} subtitle={"Trent University, Peterborough, ON, CA"}>
+            🔹Provided hands-on instructional support in Software Design and Modelling, emphasizing problem-solving and analytical techniques.<br />
+            🔹Collaborated closely with supervisor to align activities with overall course objectives.<br />
+            🔹Facilitated practical application, leading to a 25% improvement in student problem-solving skills.
           </Event>
         </Timeline><br />
 
@@ -46,7 +52,11 @@ function About() {
           Education
         </h1><br />
         <Timeline>
-          <Event interval={"2021 – 2024"} title={"BSc in Computer Science"} subtitle={"Trent University, Peterborough, ON, CA"}> </Event>
+          <Event interval={"September 2021 – April 2024"} title={"Bachelor of Science in Computer Science"} subtitle={"Trent University, Peterborough, ON, CA"}>
+            🔹GPA: 86.1% - Dean's Honor Roll (3 Consecutive Years) - President's Honor Roll<br />
+            🔹Specialized in Software Design, Algorithms, Data Structures, and Database Management.<br />
+            🔹Completed comprehensive coursework in programming languages including C#, Java, Python, and C.
+          </Event>
         </Timeline>
       </React.Fragment>
     </main>

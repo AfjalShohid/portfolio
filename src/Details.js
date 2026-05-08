@@ -52,21 +52,21 @@ export const personalDetails = {
   options={{loop:true, autoStart: true}}
   onInit={(typewriter)=> {
   typewriter
-  .typeString("I am a Computer Science Graduate")  
+  .typeString("Release Readiness Specialist at Wealthsimple")  
   .pauseFor(1500)
-  .deleteChars(35)
-  .typeString("Dean's Honor Roll Recipient")
+  .deleteChars(40)
+  .typeString("Computer Science Graduate")
   .pauseFor(1500)
-  .deleteChars(35)
-  .typeString("President's Honor Roll Recipient")
+  .deleteChars(26)
+  .typeString("Dean's & President's Honor Roll")
   .pauseFor(1500)
-  .deleteChars(35)
-  .typeString("") 
+  .deleteChars(33)
+  .typeString("Security & Risk Expert") 
   .start();
   }}
   />,
   img: profile,
-  about: `I am a Computer Science graduate from Trent University with a solid foundation in programming and web development. With hands-on experience in customer service and project management, I excel in problem-solving and delivering exceptional results in fast-paced environments. Skilled in C#, Python, HTML, CSS, and Algorithms.`,
+  about: `I am a Computer Science graduate from Trent University (BSc, 86.1% GPA) with 3 years on Dean's & President's Honor Rolls. Currently a Release Readiness Specialist at Wealthsimple, focusing on security, risk management, and product launches. Experienced in full-stack development (C#, Java, JavaScript, Python), database management, and cross-functional collaboration. Proven track record in optimizing operations, fraud prevention, and enhancing product security while maintaining exceptional client experiences.`,
 };
 
 // Enter your Social Media URLs here
@@ -107,64 +107,36 @@ export const socialMediaUrl = {
 // // Enter your Project Details here
 export const projectDetails = [
   {
-    // title: "Tensorflow vs BigQuery",
-    // // image: projectImage7,
-    // description: `The objective of this project is to comprehensively assess and contrast two prominent big data solutions, namely TensorFlow and Google BigQuery.`,
-    // techstack: "Python, Tensorflow, Google Big Query",
-    // previewLink: "https://tensorflowvsbigquery.netlify.app/",
-    // githubLink: "https://github.com/Chinmay2911/TFvsBQProject",
+    title: "Subway System Management Application",
+    description: `A sophisticated subway management system developed using C#. Features include station management, route planning using graph-based algorithms, and efficient shortest path calculations considering distance, time, and transfers. Demonstrates proficiency in data structures and algorithmic design.`,
+    techstack: "C#, Data Structures, Graph Algorithms",
+    previewLink: "#",
+    githubLink: "https://github.com/AfjalShohid",
   },
   {
-    // title: "Chatbot Data Analysis",
-    // // image: projectImage1,
-    // description: `From the backend side, all the queries are collected and it creates a dashboard on Tableau which makes it easier to understand what students are keen to know about the college.`,
-    // techstack: "Python, NLP, ML, HTML, CSS",
-    // previewLink: "https://google.com",
-    // githubLink: "https://github.com/Chinmay2911/Chatbot-Data-Analysis",
+    title: "Identity Conflict Reform (Wealthsimple)",
+    description: `Led the development of a report on project requirements, constraints, and scope through stakeholder meetings. Identified system enhancement opportunities, designed new processes using Figma, and evaluated implementation impact. Enhanced operational efficiency and security protocols.`,
+    techstack: "Figma, Process Analysis, SQL",
+    previewLink: "#",
+    githubLink: "https://github.com/AfjalShohid",
   },
   {
-    // title: "Driver’s Drowsiness Detection System",
-    // // image: projectImage2,
-    // description: `This system will monitor the driver eyes using a camera and by developing an algorithm we can detect symptoms of driver fatigue early enough to avoid the person from sleeping.`,
-    // techstack: "Python, Machine Learning",
-    // previewLink: "https://google.com",
-    // githubLink: "https://github.com/Chinmay2911/Driver-Drowsiness-Detection-System",
+    title: "Identity Conflict Process Automation (Wealthsimple)",
+    description: `Mapped diverse scenarios for identity conflict resolution and developed comprehensive pseudocode for each scenario. Collaborated with automation specialists throughout development and testing phases, identifying and resolving bugs to optimize effectiveness and reliability.`,
+    techstack: "SQL, Process Automation, Pseudocode, WHALE",
+    previewLink: "#",
+    githubLink: "https://github.com/AfjalShohid",
   },
   {
-    // title: "COVID-19 Prediction and Forecasting using Machine Learning",
-    // // image: projectImage3,
-    // description: `Analysis and Prediction of cases in future on COVID-19 which was 92% accurate. Linear Regression and Support Vector Machine was used for prediction & model was trained with accuracy of 98%.`,
-    // techstack: "Python, Linear Regression, Logistic Regression, Data Analysis, Data Visualization",
-    // previewLink: "https://google.com",
-    // githubLink: "https://github.com/Chinmay2911/COVID-19-Prediction-and-Forecasting-using-Machine-Learning",
-  },
-  {
-    // title: "Football Player Detection",
-    // // image: projectImage4,
-    // description: `Player detection and ball detection in Football videos There are multiple ways to detect players in any sports videos. Here I have used simple image processing techniques to detect players by only using opencv. It detects first the green ground and make everything other then green color into black.`,
-    // techstack: "Python, Linear Regression, Logistic Regression, Data Analysis, Data Visualization",
-    // previewLink: "https://google.com",
-    // githubLink: "https://github.com/Chinmay2911/Player_detection",
-  },
-  {
-    // title: "QR-Code Attendance System",
-    // // image: projectImage5,
-    // description: `The proposed system generates unique QR code for every student. The teacher needs to scan the QR code of particular student in order to confirm the student’s attendance. This system enables us to speed up the process of taking attendance and would save us valuable teaching time.`,
-    // techstack: "Python, JAVA, Google Apps Script, Database Management, Google APIs",
-    // previewLink: "https://google.com",
-    // githubLink: "https://github.com/Chinmay2911/QR-Code-Attendance",
-  },
-  {
-    // title: "Predicting IMDB Movie Rating",
-    // // image: projectImage6,
-    // description: `Using Machine Learning to predict the IMDB score with the meaningful variables. Using a Random Forest algorithm (500 estimators).`,
-    // techstack: "Python, BeautifulSoup, Parsing data, Data Analysis, Data Visualization",
-    // previewLink: "https://google.com",
-    // githubLink: "https://github.com/Chinmay2911/ProjectMovieRating",
+    title: "Portfolio Website",
+    description: `Developed a personal portfolio website showcasing various HTML elements including images, tables, lists, and media. Created an online CV using HTML and CSS with a professional design inspired by modern resume templates.`,
+    techstack: "HTML5, CSS3, JavaScript",
+    previewLink: "https://afjalshohid.netlify.app",
+    githubLink: "https://github.com/AfjalShohid/portfolio",
   },
 ];
-
 //Contact Details here
 export const contactDetails = {
   email: "afjalshohid@trentu.ca",
+  phone: "437-232-2477",
 };
