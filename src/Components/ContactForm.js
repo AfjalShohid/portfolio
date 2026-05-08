@@ -12,9 +12,9 @@ const ContactForm = ({ email }) => {
   const [status, setStatus] = useState("idle"); // idle, loading, success, error
   const [errorMessage, setErrorMessage] = useState("");
 
-  // Initialize EmailJS (replace with your Service ID)
+  // Initialize EmailJS with your public key
   React.useEffect(() => {
-    emailjs.init("zcEwCbkq9QwN8nqZ1"); // Public key for EmailJS
+    emailjs.init("UGb6uIPKGqDiPmkor"); // Public key for EmailJS
   }, []);
 
   const handleChange = (e) => {
@@ -57,8 +57,8 @@ const ContactForm = ({ email }) => {
 
     try {
       await emailjs.send(
-        "service_4yxltj8", // Service ID
-        "template_2p2hlqk", // Template ID
+        "service_jxj52yo", // Service ID
+        "template_djqlkp3", // Template ID
         {
           from_name: formData.name,
           from_email: formData.email,

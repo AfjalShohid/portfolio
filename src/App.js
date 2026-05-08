@@ -12,7 +12,15 @@ function App() {
     <Router>
       <Header />
       <Particles />
-      <AnimatedCursor color='57, 122, 227' />
+      <AnimatedCursor 
+        innerSize={8}
+        outerSize={35}
+        color='57, 122, 227'
+        outerAlpha={0.3}
+        innerScale={0.7}
+        outerScale={5}
+        clickables={['a', 'button', 'input', 'textarea', 'select', '.clickable']}
+      />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
