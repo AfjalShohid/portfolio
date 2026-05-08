@@ -14,7 +14,7 @@ function App() {
       <Particles />
       <AnimatedCursor color='57, 122, 227' />
       <Routes>
-        <Route path="/portfolio" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
